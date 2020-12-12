@@ -7,7 +7,8 @@ Sorry if it's kind of ugly and has some bugs, but I made it originally just for 
 For using it you just have to put the name of the movie, you can enter that name in any language, let the default of "Estados Unidos" in the dropdown (only change it if the desired film doesn't appear, but most of times it will). Once the results are shown, you click on the movie and they will appear the name of the countries and the streaming services that have that movie.
 
 For Amazon Prime once you are using the VPN of the country, you should click on the image of Prime of that country and once the window opens you should be able to play the movie :) Unfortunately I think it doesn't work Prime with VPN with any app (mobile, smartTV, etc) I think it's only possible through a browser in a computer.
-  
+
+
 
 https://buscadorstreaming.netlify.app/
 
