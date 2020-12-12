@@ -1,0 +1,25 @@
+<div class="row m-5">
+    <div class="col">
+  <select class='form-control' style='width:20%' [(ngModel)]="codigoPais"> 
+    <option *ngFor='let pais of paises' [value]="pais.full_locale">
+        {{pais.country_names.es}}
+      </option>                                                               
+</select>
+</div>
+</div>
+<div class="row m-5">
+    <div class="col">
+        <input #termino type="text" class="form-control" placeholder="Buscar película o serie...">
+    </div>
+    <button type="button" (click)="buscar(termino.value)" class="btn btn-primary">Buscar</button>
+</div>
+
+<div class="card-columns m-5 animated fadeIn">
+    <div (click)="verPelicula(pelicula)" *ngFor="let pelicula of peliculas" class="card puntero">
+      <img [src]="pelicula.linkPoster" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{pelicula.title}} ({{pelicula.original_release_year}})</h5>
+      </div>
+    </div>
+</div>
+
