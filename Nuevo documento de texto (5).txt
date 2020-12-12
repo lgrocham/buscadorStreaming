@@ -1,5 +1,3 @@
-subir sistema netifly
-
 Finally I uploaded the movie global search. I mentioned that it was for Prime Video and I use it mostly for it, but actually it searchs in many streaming services in the world (including some free ones with ads) :) I couldn't find an API for Prime so I used one from another site called Justwatch that searchs in many services.
 
 Sorry if it's kind of ugly and has some bugs, but I made it originally just for personal use so it's far from perfect :) It worked fine in localhost but I had some troubles using it in a server due to some API restrictions, so sometimes it doesn't work, so you have to wait for a while or reload the page. 
@@ -7,7 +5,6 @@ Sorry if it's kind of ugly and has some bugs, but I made it originally just for 
 For using it you just have to put the name of the movie, you can enter that name in any language, let the default of "Estados Unidos" in the dropdown (only change it if the desired film doesn't appear, but most of times it will). Once the results are shown, you click on the movie and they will appear the name of the countries and the streaming services that have that movie.
 
 For Amazon Prime once you are using the VPN of the country, you should click on the image of Prime of that country and once the window opens you should be able to play the movie :) Unfortunately I think it doesn't work Prime with VPN with any app (mobile, smartTV, etc) I think it's only possible through a browser in a computer.
-
 
 
 https://buscadorstreaming.netlify.app/
