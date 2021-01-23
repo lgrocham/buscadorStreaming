@@ -17,7 +17,8 @@ export class JustwatchService {
     }
     else
     {
-      this.cors = "https://cors-anywhere.herokuapp.com/";
+      //this.cors = "https://cors-anywhere.herokuapp.com/"; Parece que ya no sirve
+      this.cors = "https://api.codetabs.com/v1/proxy?quest=";
     }
   }
 
